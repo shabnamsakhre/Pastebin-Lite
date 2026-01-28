@@ -69,7 +69,7 @@ The frontend communicates with the backend using HTTP APIs.
 ---
 
 ## 👨‍💻 Author
-Shabnam Sakhre
+Shabnam R. Sakhre
 
 GitHub: https://github.com/shabnamsakhre
 
