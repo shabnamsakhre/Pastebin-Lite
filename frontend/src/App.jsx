@@ -16,6 +16,7 @@ const App = () => {
   const [open, setOpen] = useState(false);
   const [selectedId, setSelectedId] = useState(null);
 
+  // Create Paste Form Handler
   const submitHandler = async (pastes) => {
     try {
       const res = await axios.post("/api/pastes", pastes);
@@ -29,6 +30,7 @@ const App = () => {
     }
   };
 
+  // Open Dialog handler when clicked on Id
   const handleDialog = (id) => {
     setSelectedId(id);
     setOpen(true);

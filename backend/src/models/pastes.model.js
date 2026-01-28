@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+// Define database Schema
 const pasteSchema = new mongoose.Schema({
     content: {
         type: String,
@@ -13,6 +14,7 @@ const pasteSchema = new mongoose.Schema({
     }
 }, { timestamps: true });
 
+// Create Model
 const pasteModel = mongoose.model("pastes", pasteSchema)
 
 module.exports = pasteModel;
